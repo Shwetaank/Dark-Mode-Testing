@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark Mode</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <!-- External CSS file for styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Dark Mode Switch -->
+  <div class="theme-switch-wrapper">
+    <span id="toggle-icon">
+      <span class="toggle-text">Light Mode</span>
+      <i class="fas fa-sun"></i>
+    </span>
+    <label class="theme-switch">
+      <input type="checkbox" />
+      <!-- Slider for toggling dark/light mode -->
+      <div class="slider round"></div>
+    </label>
+  </div>
+  <!-- Navigation menu -->
+  <nav id="nav">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+  
+  <!-- Home Section -->
+  <section id="home">
+    <div class="tittle-group">
+      <h1>Dummy Project</h1>
+      <h2> created Dummy site for testing Dark Mode And Light Mode</h2>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about">
+    <h1>Undraw Illustration</h1>
+    <div class="about-container">
+      <!-- Image containers with titles -->
+      <div class="image-container">
+        <h2>Web Innovation</h2>
+        <img src="img/undraw_proud_coder_light.svg" alt="Proud Coder" id="image1" />
+      </div>
+      <div class="image-container">
+        <h2>Problem Solving</h2>
+        <img src="img/undraw_feeling_proud_light.svg" alt="Proud Coder" id="image2" />
+      </div>
+      <div class="image-container">
+        <h2>High Concept</h2>
+        <img src="img/undraw_conceptual_idea_light.svg" alt="" id="image3" />
+      </div>
+    </div>
+  </section>
+  
+  <!-- Project Section -->
+  <section id="projects">
+    <h1>Buttons</h1>
+    <!-- Various button styles -->
+    <div class="buttons">
+      <button class="primary">Primary</button>
+      <button class="secondary">Secondary</button>
+      <button class="primary" disabled>Disabled</button>
+      <button class="outline">Outline</button>
+      <button class="secondary outline">Alt Outline</button>
+      <button class="outline" disabled>Disabled</button>
+    </div>
+    <!-- Text box with lorem ipsum content -->
+    <div class="text-box" id="text-box">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsa,
+        et rem natus porro sunt nulla eaque unde tempore saepe blanditiis illo
+        quo explicabo magnam alias, nam dignissimos aspernatur impedit!
+      </p>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <section id="contact">
+    <!-- Social media icons with profile links -->
+    <div class="social-icons">
+      <a href="https://github.com/Shwetaank" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://x.com/Sin_Greed___" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.linkedin.com/in/shwetank-morey-a35484257/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://youtube.com/@sin_greed?si=4dAvSdDilIOP60s6" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+  </section>
+  
+  
+  <!-- Script file -->
+  <script src="script.js"></script>
+</body>
+</html>
